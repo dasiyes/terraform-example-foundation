@@ -37,7 +37,7 @@ variable "group_billing_admins" {
 variable "default_region" {
   description = "Default region to create resources where applicable."
   type        = string
-  default     = "us-central1"
+  default     = "europe-west3"
 }
 
 variable "parent_folder" {
@@ -61,13 +61,13 @@ variable "org_policy_admin_role" {
 variable "project_prefix" {
   description = "Name prefix to use for projects created. Should be the same in all steps. Max size is 3 characters."
   type        = string
-  default     = "prj"
+  default     = "ivm"
 }
 
 variable "folder_prefix" {
   description = "Name prefix to use for folders created. Should be the same in all steps."
   type        = string
-  default     = "fldr"
+  default     = "ivmf"
 }
 
 variable "bucket_prefix" {
