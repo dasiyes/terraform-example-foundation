@@ -17,6 +17,6 @@
 terraform {
   backend "gcs" {
     bucket = "bkt-b-tfstate-6303"
-    prefix = "terraform/environments/non-production"
+    prefix = "terraform/bootstrap/state"
   }
 }
