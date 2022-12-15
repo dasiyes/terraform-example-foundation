@@ -131,7 +131,7 @@ Run `terraform output cloudbuild_project_id` in the `0-bootstrap` folder to get 
    cd gcp-org
    git checkout -b plan
 
-   cp -RT ../terraform-example-foundation/1-org/ .
+   cp -R  ../terraform-example-foundation/1-org/ .
    cp ../terraform-example-foundation/build/cloudbuild-tf-* .
    cp ../terraform-example-foundation/build/tf-wrapper.sh .
    chmod 755 ./tf-wrapper.sh
