@@ -101,7 +101,7 @@ Run `terraform output cloudbuild_project_id` in the `0-bootstrap` folder to get 
    cd gcp-policies-app-infra
    git checkout -b main
 
-   cp -RT ../terraform-example-foundation/policy-library/ .
+   cp -R ../terraform-example-foundation/policy-library/ .
    ```
 
 1. Commit changes and push your main branch to the new repo.
@@ -133,7 +133,7 @@ Run `terraform output cloudbuild_project_id` in the `0-bootstrap` folder to get 
    cd bu1-example-app
    git checkout -b plan
 
-   cp -RT ../terraform-example-foundation/5-app-infra/ .
+   cp -R ../terraform-example-foundation/5-app-infra/ .
    cp ../terraform-example-foundation/build/cloudbuild-tf-* .
    cp ../terraform-example-foundation/build/tf-wrapper.sh .
    chmod 755 ./tf-wrapper.sh
