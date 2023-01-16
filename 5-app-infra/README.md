@@ -123,6 +123,9 @@ Run `terraform output cloudbuild_project_id` in the `0-bootstrap` folder to get 
 
    ```bash
    gcloud source repos clone bu1-example-app --project=${INFRA_PIPELINE_PROJECT_ID}
+
+   # ... or if you need a new repository:
+   gcloud source repos create bu1-app1-ivmauth --project=${INFRA_PIPELINE_PROJECT_ID}
    ```
 
 1. Navigate into the repo, change to non-main branch and copy contents of foundation to new repo.
